@@ -1,0 +1,26 @@
+{
+    "name": "pxt-FreeFlyer-Board",
+    "version": "1.0.0",
+    "description": "Treiber für das FreeFlyer Board für Calliope mini. Fügt Support für BME690, BMI323, BMP585 und SCD4x hinzu",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "v3": "*"
+    },
+    "files": [
+        "README.md",
+        "bmp585.ts",
+        "bme690.ts",
+        "bmi323.ts",
+        "scd4x.ts",
+        "_locales/de/pxt-FreeFlyer-Board-strings.json",
+        "_locales/de/pxt-FreeFlyer-Board-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "demo.ts"
+    ],
+    "targetVersions": {
+        "targetId": "calliopemini"
+    },
+    "preferredEditor": "tsprj"
+}
